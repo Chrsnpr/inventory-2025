@@ -9,6 +9,7 @@ use Filament\Widgets\TableWidget as BaseWidget;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Spatie\Activitylog\Models\Activity;
+use App\Filament\Widgets\TransactionStatusChart;
 
 class LatestAccessLogs extends BaseWidget
 {
